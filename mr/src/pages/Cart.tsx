@@ -64,7 +64,7 @@ const Cart: React.FC<CartProps> = ({ cart, increaseQuantity, decreaseQuantity, r
     // Contact number set to 923001490558 as provided in original code
     const whatsappMessage = encodeURIComponent(`🍽️ *NEW ONLINE ORDER* 🍽️\n\n*Items Ordered:*\n${orderItems}${totalBill}${customerDetails}`);
 
-    const whatsappLink = `https://wa.me/923001490558?text=${whatsappMessage}`;
+    const whatsappLink = `https://wa.me/923287725050?text=${whatsappMessage}`;
 
     // Custom modal UI should be used instead of window.open in a real-world React app 
     // for better user experience, but using window.open here for simplicity.
