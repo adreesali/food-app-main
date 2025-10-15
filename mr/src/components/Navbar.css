@@ -1,0 +1,40 @@
+/*
+  1. Navbar Entrance Animation: Fade-down
+  This makes the whole navbar drop in subtly from the top.
+*/
+@keyframes fadeDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-down {
+  animation: fadeDown 0.5s ease-out; /* Adjust timing as needed */
+}
+
+/*
+  2. Cart Badge Animation: Pop/Pulse Effect
+  This makes the badge 'pop' into view when the count changes.
+*/
+@keyframes pop {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  75% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animate-pop {
+  animation: pop 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
