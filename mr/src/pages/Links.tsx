@@ -22,7 +22,7 @@ const accounts = [
 ];
 
 const WHATSAPP_NUMBER = "923287725050"; 
-
+   
 // --- FRAMER MOTION VARIANTS ---
 // (Animations are smooth and stable)
 const logoVariants = {
